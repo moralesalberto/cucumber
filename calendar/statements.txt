@@ -1,0 +1,13 @@
+If a user enters an event that has an earlier end_time than start_time, when
+he tries to submit the form, it should be displayed with an error message advising
+him that the end_time needs to be after the start_time.
+
+If a user enters an event and does not supply an end time, when he tries
+to submit the form, it should be displayed with an error message advising 
+him that the end_time is required
+
+If a user enters an event and does not supply a star_time, when he tries
+to submit the form, it should be displayed with an error message advising
+him the the start_time is required.
+
+
