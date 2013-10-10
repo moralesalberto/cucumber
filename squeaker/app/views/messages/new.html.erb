@@ -1,0 +1,6 @@
+<h1>Enter your message</h1>
+
+<%= form_for [@user, @message] do |f|%>
+  <%= f.text_area 'content' %>
+  <%= f.submit %>
+<% end %>
